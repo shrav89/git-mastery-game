@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { GitBranch, GitCommit, GitMerge, GitPullRequest, Cloud, Terminal, Trophy, Star, ChevronRight, Check, X, Zap, BookOpen, Target, Rocket, RefreshCw, ArrowRight, Lock, Play, Command, Sparkles, Award, Home, RotateCcw, Keyboard, Shield, Database, Search, Clock, AlertTriangle, Users, Layers, Settings, ChevronDown, ChevronUp, Brain, Flame, Heart, Coffee, Code, FileCode, Box, Eye, GitFork, Archive, Key, Timer, HelpCircle, Lightbulb, Send, SkipForward } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { GitBranch, Terminal, Trophy, Star, ChevronRight, Check, X, Zap, BookOpen, RefreshCw, Lock, Sparkles, Shield, Database, AlertTriangle, Users, Layers, ChevronDown, ChevronUp, Flame, Coffee, HelpCircle, Lightbulb, Send } from 'lucide-react';
 
 // ============================================
 // CHAPTER & MISSION DATA (50+ LEVELS)
@@ -2205,7 +2205,7 @@ const WelcomeScreen = ({ onStart }) => {
               <h1 className="text-4xl font-bold mb-2 bg-gradient-to-r from-violet-400 via-pink-400 to-amber-400 bg-clip-text text-transparent">
                 Git Mastery
               </h1>
-              <p className="text-stone-400 text-lg">The Full-Stack Designer's Journey</p>
+              <p className="text-stone-400 text-lg">The Full-Stack Designer&apos;s Journey</p>
             </div>
             
             <div className="bg-stone-900/50 backdrop-blur rounded-2xl p-6 mb-8 border border-stone-800 text-left">
@@ -2427,7 +2427,7 @@ const ChapterSelect = ({ playerName, completedMissions, xp, onSelectMission, onO
 };
 
 // Mission Screen
-const MissionScreen = ({ mission, chapter, playerName, onComplete, onBack }) => {
+const MissionScreen = ({ mission, chapter, onComplete, onBack }) => {
   const [currentChallenge, setCurrentChallenge] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [terminalInput, setTerminalInput] = useState('');
@@ -2865,7 +2865,7 @@ export default function GitMastery() {
 
       {showSandbox && <Sandbox onClose={() => setShowSandbox(false)} />}
 
-      <style jsx global>{`
+      <style>{`
         @keyframes fade-in {
           from { opacity: 0; transform: translateY(10px); }
           to { opacity: 1; transform: translateY(0); }
