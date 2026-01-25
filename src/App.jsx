@@ -3,15 +3,21 @@ import WelcomeScreen from './components/screens/WelcomeScreen';
 import ChapterSelect from './components/screens/ChapterSelect';
 import MissionScreen from './components/screens/MissionScreen';
 import Sandbox from './components/game/Sandbox';
+import { useGameProgress, getInitialGameState } from './hooks/useGameProgress';
 
 export default function GitMastery() {
-  const [gameState, setGameState] = useState('welcome'); // welcome, chapters, mission
-  const [playerName, setPlayerName] = useState('');
-  const [completedMissions, setCompletedMissions] = useState([]);
-  const [xp, setXp] = useState(0);
+  const [gameState, setGameState] = useState(getInitialGameState);
   const [currentMission, setCurrentMission] = useState(null);
   const [currentChapter, setCurrentChapter] = useState(null);
   const [showSandbox, setShowSandbox] = useState(false);
+
+  const {
+    playerName,
+    completedMissions,
+    xp,
+    setPlayerName,
+    completeMission,
+  } = useGameProgress();
 
   const handleStart = (name) => {
     setPlayerName(name);
@@ -25,10 +31,7 @@ export default function GitMastery() {
   };
 
   const handleCompleteMission = (missionId, earnedXp) => {
-    if (!completedMissions.includes(missionId)) {
-      setCompletedMissions([...completedMissions, missionId]);
-    }
-    setXp(prev => prev + earnedXp);
+    completeMission(missionId, earnedXp);
     setGameState('chapters');
   };
 
